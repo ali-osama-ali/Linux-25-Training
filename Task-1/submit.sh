@@ -31,12 +31,12 @@ upload_task () {
 	if [ "$(git status -s | wc -l )" != 0 ]; then
 		git add . > /dev/null 
 		git commit -m "Task submission." &> /dev/null 
-		git push origin main> /dev/null || return 1
+		git push > /dev/null || return 1
 		echo "Task submitted successfully!"
 
-	elif [ "$(git rev-list --count @{u}..HEAD 2>/dev/null)" -gt 0 ]; then		git push origin main > /dev/null || return 1
+	elif [ "$(git rev-list --count @{u}..HEAD 2>/dev/null)" -gt 0 ]; then		git push > /dev/null || return 1
 		# unpushed commits exist
-		git push origin main
+		git push
 	else
 		echo "No changes since last push."
 	fi
@@ -45,7 +45,7 @@ upload_task () {
 
 # Main
 echo "[1/3] Fetching changes..."
-git pull origin main > /dev/null || exit 2
+git pull > /dev/null || exit 2
 if [ -f "$test_file" ]; then
 echo "[2/3] Testing..."
 	run_test
