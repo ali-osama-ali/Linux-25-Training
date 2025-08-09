@@ -1,3 +1,17 @@
+
+---
+# Task Grading Result
+
+- **Time of grading:** Sunday, August 10, 2025, 02:18 AM
+
+- **Task:** Task-1
+
+- **Result:** NOTSUBMITTED
+
+- **Comments:** Test execution failed (exit code: 2)
+
+Logs:
+```bash
 Setting up task environment...
 Running your solution...
 /home/runner/work/Summer-Taskinator/Summer-Taskinator/student_repos/ali-osama-ali/Task-1
@@ -19,12 +33,4 @@ rm: cannot remove '/home/ali/osc-summer-training/Linux-25-Training/Task-1/gate-1
 mkdir: cannot create directory ‘/home/ali/osc-summer-training/Linux-25-Training/Task-1/gate-1/gate-2/gate-3/gate-4/earth/home’: No such file or directory
 touch: cannot touch '/home/ali/osc-summer-training/Linux-25-Training/Task-1/gate-1/gate-2/gate-3/gate-4/earth/home/bed': No such file or directory
 Failed to run solution
-
----
-# Task Grading Result
-
-**Time of grading:** Sunday, August 10, 2025, 02:05 AM
-**Task:** Task-1
-**Result:** NOTSUBMITTED
-**Comments:** Test execution failed (exit code: 2)
----
+```
