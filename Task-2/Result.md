@@ -2,11 +2,11 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Sunday, August 10, 2025, 02:18 AM
+- **Time of grading:** Friday, August 15, 2025, 02:41 PM
 
 - **Task:** Task-2
 
-- **Result:** CORRECT
+- **Result:** INCORRECT
 
 
 Logs:
@@ -17,6 +17,7 @@ Executing test...
 [INFO] Checking Stage 1...
 [SUCCESS] Stage 1 Answer is correct.
 [INFO] Checking Stage 2...
+[ERROR] Stage 2: Tool diagnostics.sh not found.
 [INFO] Checking Stage 3...
 [SUCCESS] Stage 3 Answer is correct.
 [INFO] Checking Stage 4...
@@ -24,10 +25,8 @@ Executing test...
 [INFO] Checking Final Flag in report...
 [SUCCESS] Final Flag is correct in the report.
 [INFO] Checking command documentation in solution...
-[SUCCESS] Sufficient command documentation found (5 stages).
-[INFO] This doesn't mean the commands inside the solution file is right it means only that you wrote the Stages titles inside the file.
+[ERROR] Stage 4: You did not using find or -xtype to find the broken link.
 -------------------------------------
-[INFO] Final Score: 5 / 6
-[SUCCESS] Task passed!
-[INFO] Commit and push the solution file now.
+[INFO] Final Score: 6 / 8
+[ERROR] Task failed. Please review the stages and submission guidelines.
 ```
