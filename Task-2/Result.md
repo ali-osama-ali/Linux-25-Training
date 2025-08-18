@@ -2,33 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Monday, August 18, 2025, 09:51 PM
-
-- **Task:** Task-2
-
-- **Result:** CORRECT
-
-
-Logs:
-```bash
-
----
-# Task Grading Result
-
-- **Time of grading:** Monday, August 18, 2025, 09:20 PM
-
-- **Task:** Task-2
-
-- **Result:** CORRECT
-
-
-Logs:
-```bash
-
----
-# Task Grading Result
-
-- **Time of grading:** Monday, August 18, 2025, 05:18 PM
+- **Time of grading:** Monday, August 18, 2025, 10:04 PM
 
 - **Task:** Task-2
 
@@ -51,10 +25,7 @@ Executing test...
 [INFO] Checking Final Flag in report...
 [SUCCESS] Final Flag is correct in the report.
 [INFO] Checking command documentation in solution...
-[ERROR] Stage 4: You did not using find or -xtype to find the broken link.
 -------------------------------------
-[INFO] Final Score: 4 / 6
+[INFO] Final Score: 5 / 6
 [ERROR] Task failed. Please review the stages and submission guidelines.
-```
-```
 ```
