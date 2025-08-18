@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Monday, August 18, 2025, 02:33 PM
+- **Time of grading:** Monday, August 18, 2025, 03:33 PM
 
 - **Task:** Task-4
 
@@ -39,7 +39,6 @@ Archive:  file1.zip
 =========================
 Tests Passed : 10
 Tests Failed : 0
-Grade        : 8 / 8
 =========================
 [SUCCESS] Excellent submission
 [INFO] Cleaning up...
