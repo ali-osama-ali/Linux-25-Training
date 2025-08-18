@@ -7,7 +7,7 @@ Stage 2:
 Stage 3:
     sh /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/backups/diagnostics.sh 2> /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/stage3_answer.txt
 Stage 4:
-    cat /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/asset_links/* 2> /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/stage4_answer.txt  
+    find /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/asset_links/ -xtype l > /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/stage4_answer.txt
 Stage 5:
     bash /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/system/system_check.sh > flag 
 	 
