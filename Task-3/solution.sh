@@ -1,6 +1,6 @@
 sudo useradd hero
 sudo useradd intruder
-sudo userdel intruder
+sudo userdel -r intruder
 sudo groupadd warriors
 sudo groupadd healers
 sudo usermod -aG warriors hero
