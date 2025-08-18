@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Sunday, August 17, 2025, 12:49 AM
+- **Time of grading:** Monday, August 18, 2025, 12:40 PM
 
 - **Task:** Task-2
 
@@ -17,7 +17,7 @@ Executing test...
 [INFO] Checking Stage 1...
 [SUCCESS] Stage 1 Answer is correct.
 [INFO] Checking Stage 2...
-[ERROR] Stage 2: Tool diagnostics.sh not found.
+[ERROR] Stage 2: You should put extract diagnostics.sh in tools directory, Check stage2 in readme.
 [INFO] Checking Stage 3...
 [SUCCESS] Stage 3 Answer is correct.
 [INFO] Checking Stage 4...
@@ -27,6 +27,6 @@ Executing test...
 [INFO] Checking command documentation in solution...
 [ERROR] Stage 4: You did not using find or -xtype to find the broken link.
 -------------------------------------
-[INFO] Final Score: 6 / 8
+[INFO] Final Score: 4 / 8
 [ERROR] Task failed. Please review the stages and submission guidelines.
 ```
