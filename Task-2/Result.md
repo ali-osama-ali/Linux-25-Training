@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Monday, August 18, 2025, 02:17 PM
+- **Time of grading:** Monday, August 18, 2025, 03:29 PM
 
 - **Task:** Task-2
 
@@ -27,6 +27,6 @@ Executing test...
 [INFO] Checking command documentation in solution...
 [ERROR] Stage 4: You did not using find or -xtype to find the broken link.
 -------------------------------------
-[INFO] Final Score: 4 / 8
+[INFO] Final Score: 4 / 6
 [ERROR] Task failed. Please review the stages and submission guidelines.
 ```
