@@ -2,12 +2,11 @@ FLAG{D4T4_GH0ST_C4UGHT}
 Stage 1:
     find ./data_stream/ -type f -size 0 > /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost
 Stage 2:
-    cd /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/backups
-    gzip -d system_tools.tar.gz && tar -xf system_tools.tar
+    gzip -d backups/system_tools.tar.gz && tar -xf backups/system_tools.tar -C ./tools
 Stage 3:
     sh /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/backups/diagnostics.sh 2> /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/stage3_answer.txt
 Stage 4:
-    find /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/asset_links/ -xtype l > /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/stage4_answer.txt
+    find ./asset_links -xtype l > /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/stage4_answer.txt
 Stage 5:
     bash /home/ali/osc-summer-training/Linux-25-Training/Task-2/Ghost/system/system_check.sh > flag 
 	 
