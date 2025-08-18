@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Sunday, August 17, 2025, 07:52 PM
+- **Time of grading:** Monday, August 18, 2025, 03:15 AM
 
 - **Task:** Task-4
 
@@ -15,31 +15,33 @@ Logs:
 [SUCCESS] Setup complete
 [INFO] Testing part one...
 [INFO] [INFO] Running extract_key.sh with arguments
-[ERROR] Failed to create extracted_<timestamp> folder
+Archive:  file1.zip
+  inflating: extracted_files/file1   
+[SUCCESS] Extraction folder created: ./extracted_files
 [INFO] Checking if .tar.xz archive was extracted correctly...
-[ERROR] tar.xz content not found or extraction failed
-[ERROR] Invalid extracted folder name format
-[ERROR] Script structure seems incomplete
+[SUCCESS] tar.xz content extracted and visible
+[SUCCESS] Folder naming format is correct
+[SUCCESS] Script contains zip/tar support and uses timestamps
 
 =========================
 [INFO] Testing part two...
 [INFO] Testing get_sum.sh functionality
-[ERROR] is_positive() function not found
-[ERROR] Loop structure missing
-[ERROR] User input handling missing
+[SUCCESS] is_positive() function found
+[SUCCESS] Loop structure found
+[SUCCESS] User input handling found
 [ERROR] Function missing return statements
-[ERROR] Sum calculation logic missing
+[SUCCESS] Sum calculation logic found
 [INFO] Testing basic functionality with input: 5, -3, 10, 0
-[ERROR] Basic test failed - Expected: 15, Got: 
+[SUCCESS] Basic test passed - Expected: 15, Got: 15
 [INFO] Testing all positive numbers: 1, 2, 3, 4, 5, 0
-[ERROR] All positive test failed - Expected: 15, Got: 
+[SUCCESS] All positive test passed
 [INFO] Testing mixed numbers: 10, -5, -2, 8, -1, 3, 0
-[ERROR] Mixed numbers test failed - Expected: 21, Got: 
+[SUCCESS] Mixed numbers test passed
 
 =========================
-Tests Passed : 0
-Tests Failed : 12
-Grade        : 0 / 10
+Tests Passed : 11
+Tests Failed : 1
+Grade        : 9 / 10
 =========================
 [INFO] Submission needs improvement
 [INFO] Cleaning up...
