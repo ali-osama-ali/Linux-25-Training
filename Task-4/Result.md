@@ -2,11 +2,11 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Monday, August 18, 2025, 03:15 AM
+- **Time of grading:** Monday, August 18, 2025, 02:33 PM
 
 - **Task:** Task-4
 
-- **Result:** INCORRECT
+- **Result:** CORRECT
 
 
 Logs:
@@ -26,10 +26,8 @@ Archive:  file1.zip
 =========================
 [INFO] Testing part two...
 [INFO] Testing get_sum.sh functionality
-[SUCCESS] is_positive() function found
 [SUCCESS] Loop structure found
 [SUCCESS] User input handling found
-[ERROR] Function missing return statements
 [SUCCESS] Sum calculation logic found
 [INFO] Testing basic functionality with input: 5, -3, 10, 0
 [SUCCESS] Basic test passed - Expected: 15, Got: 15
@@ -39,11 +37,11 @@ Archive:  file1.zip
 [SUCCESS] Mixed numbers test passed
 
 =========================
-Tests Passed : 11
-Tests Failed : 1
-Grade        : 9 / 10
+Tests Passed : 10
+Tests Failed : 0
+Grade        : 8 / 8
 =========================
-[INFO] Submission needs improvement
+[SUCCESS] Excellent submission
 [INFO] Cleaning up...
 [INFO] Cleanup complete
 ```
