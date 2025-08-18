@@ -2,20 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Monday, August 18, 2025, 08:51 PM
-
-- **Task:** Task-5
-
-- **Result:** CORRECT
-
-
-Logs:
-```bash
-
----
-# Task Grading Result
-
-- **Time of grading:** Monday, August 18, 2025, 07:53 PM
+- **Time of grading:** Monday, August 18, 2025, 10:05 PM
 
 - **Task:** Task-5
 
@@ -30,5 +17,4 @@ Task 1 Pass!
 Task 2 Pass!
 Congratulations!
 Cleaning up...
-```
 ```
