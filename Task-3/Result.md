@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Tuesday, August 19, 2025, 08:12 PM
+- **Time of grading:** Tuesday, August 19, 2025, 10:26 PM
 
 - **Task:** Task-3
 
@@ -16,7 +16,7 @@ Running student solution with command filtering...
 [WARN] Command failed: sudo chown treasure.txt hero
 [WARN] Command failed: sduo chmod u+rw treasure.txt
     PID TTY          TIME CMD
-      1 ?        00:00:03 systemd
+      1 ?        00:00:04 systemd
       2 ?        00:00:00 kthreadd
       3 ?        00:00:00 pool_workqueue_release
       4 ?        00:00:00 kworker/R-rcu_gp
@@ -25,8 +25,8 @@ Running student solution with command filtering...
       7 ?        00:00:00 kworker/R-netns
       8 ?        00:00:00 kworker/0:0-events
       9 ?        00:00:00 kworker/0:1-cgroup_destroy
-     10 ?        00:00:00 kworker/0:0H-events_highpri
-     11 ?        00:00:00 kworker/u8:0-flush-8:0
+     10 ?        00:00:00 kworker/0:0H-kblockd
+     11 ?        00:00:00 kworker/u8:0-events_power_efficient
      12 ?        00:00:00 kworker/R-mm_percpu_wq
      13 ?        00:00:00 rcu_tasks_rude_kthread
      14 ?        00:00:00 rcu_tasks_trace_kthread
@@ -47,7 +47,7 @@ Running student solution with command filtering...
      29 ?        00:00:00 kworker/R-inet_frag_wq
      30 ?        00:00:00 kauditd
      31 ?        00:00:00 khungtaskd
-     32 ?        00:00:00 kworker/u8:1-flush-8:0
+     32 ?        00:00:00 kworker/u8:1-events_unbound
      33 ?        00:00:00 oom_reaper
      34 ?        00:00:00 kworker/u8:2-flush-8:0
      35 ?        00:00:00 kworker/R-writeback
@@ -58,7 +58,7 @@ Running student solution with command filtering...
      40 ?        00:00:00 kworker/R-kblockd
      41 ?        00:00:00 kworker/R-blkcg_punt_bio
      42 ?        00:00:00 irq/9-acpi
-     43 ?        00:00:00 kworker/1:1-cgroup_destroy
+     43 ?        00:00:00 kworker/1:1-events
      44 ?        00:00:00 kworker/R-tpm_dev_wq
      45 ?        00:00:00 kworker/R-ata_sff
      46 ?        00:00:00 kworker/R-md
@@ -69,72 +69,70 @@ Running student solution with command filtering...
      51 ?        00:00:00 kworker/R-hv_pri_chan
      52 ?        00:00:00 kworker/R-hv_sub_chan
      53 ?        00:00:00 kworker/R-devfreq_wq
-     54 ?        00:00:00 kworker/0:2-cgroup_destroy
-     55 ?        00:00:00 watchdogd
-     56 ?        00:00:00 kworker/0:1H-kblockd
-     57 ?        00:00:00 kswapd0
-     58 ?        00:00:00 ecryptfs-kthread
-     59 ?        00:00:00 kworker/R-kthrotld
-     60 ?        00:00:00 kworker/R-nfit
-     61 ?        00:00:00 scsi_eh_0
-     62 ?        00:00:00 kworker/u8:3-events_unbound
-     63 ?        00:00:00 scsi_eh_1
-     64 ?        00:00:00 scsi_eh_2
-     65 ?        00:00:00 kworker/R-scsi_tmf_2
+     54 ?        00:00:00 watchdogd
+     55 ?        00:00:00 kworker/1:1H-kblockd
+     56 ?        00:00:00 kswapd0
+     57 ?        00:00:00 ecryptfs-kthread
+     58 ?        00:00:00 kworker/R-kthrotld
+     59 ?        00:00:00 kworker/R-nfit
+     60 ?        00:00:00 scsi_eh_0
+     61 ?        00:00:00 kworker/u8:3-writeback
+     62 ?        00:00:00 scsi_eh_1
+     63 ?        00:00:00 scsi_eh_2
+     64 ?        00:00:00 kworker/R-scsi_tmf_2
+     65 ?        00:00:00 kworker/R-scsi_tmf_0
      66 ?        00:00:00 kworker/R-scsi_tmf_1
-     67 ?        00:00:00 kworker/R-scsi_tmf_0
-     68 ?        00:00:00 kworker/R-nvme-wq
-     69 ?        00:00:00 kworker/R-nvme-reset-wq
-     70 ?        00:00:00 kworker/R-nvme-delete-wq
+     67 ?        00:00:00 kworker/R-nvme-wq
+     68 ?        00:00:00 kworker/R-nvme-reset-wq
+     69 ?        00:00:00 kworker/R-nvme-delete-wq
+     70 ?        00:00:00 kworker/u8:4-events_unbound
      71 ?        00:00:00 kworker/R-nvme-auth-wq
      72 ?        00:00:00 scsi_eh_3
-     73 ?        00:00:00 kworker/u8:4-writeback
-     74 ?        00:00:00 kworker/R-scsi_tmf_3
-     75 ?        00:00:00 scsi_eh_4
-     76 ?        00:00:00 kworker/R-scsi_tmf_4
-     77 ?        00:00:00 kworker/u8:5-flush-8:0
-     78 ?        00:00:00 kworker/1:2-cgroup_destroy
-     79 ?        00:00:00 kworker/u8:6-flush-8:0
-     80 ?        00:00:00 kworker/R-mld
-     81 ?        00:00:00 kworker/1:1H-kblockd
-     82 ?        00:00:00 kworker/R-ipv6_addrconf
-     89 ?        00:00:00 hv_balloon
-     90 ?        00:00:00 kworker/R-kstrp
-     92 ?        00:00:00 kworker/u9:0
-    105 ?        00:00:00 jbd2/sda1-8
-    106 ?        00:00:00 kworker/R-ext4-rsv-conversion
+     73 ?        00:00:00 kworker/R-scsi_tmf_3
+     74 ?        00:00:00 scsi_eh_4
+     75 ?        00:00:00 kworker/R-scsi_tmf_4
+     76 ?        00:00:00 kworker/u8:5-events_power_efficient
+     77 ?        00:00:00 kworker/u8:6
+     78 ?        00:00:00 kworker/R-mld
+     79 ?        00:00:00 kworker/u8:7-events_unbound
+     80 ?        00:00:00 kworker/R-ipv6_addrconf
+     87 ?        00:00:00 hv_balloon
+     88 ?        00:00:00 kworker/R-kstrp
+     90 ?        00:00:00 kworker/u9:0
+    103 ?        00:00:00 jbd2/sda1-8
+    104 ?        00:00:00 kworker/R-ext4-rsv-conversion
+    105 ?        00:00:00 kworker/0:1H-kblockd
+    106 ?        00:00:00 kworker/0:2-events
     154 ?        00:00:00 systemd-journal
-    175 ?        00:00:00 kworker/R-kmpathd
-    176 ?        00:00:00 kworker/R-kmpath_handlerd
-    206 ?        00:00:00 kworker/0:3-events
+    168 ?        00:00:00 kworker/1:2-cgroup_destroy
+    193 ?        00:00:00 kworker/R-kmpathd
+    194 ?        00:00:00 kworker/R-kmpath_handlerd
+    196 ?        00:00:00 kworker/0:3
+    212 ?        00:00:00 kworker/1:3-events
     217 ?        00:00:00 multipathd
-    221 ?        00:00:00 systemd-udevd
-    232 ?        00:00:00 psimon
-    299 ?        00:00:00 kworker/R-cryptd
-    330 ?        00:00:00 hv_kvp_daemon
-    353 ?        00:00:00 kworker/1:3
-    354 ?        00:00:00 kworker/1:4-events
-    356 ?        00:00:00 jbd2/sda16-8
-    357 ?        00:00:00 kworker/R-ext4-rsv-conversion
-    506 ?        00:00:00 haveged
-    705 ?        00:00:00 networkd-dispat
-    707 ?        00:00:00 php-fpm8.3
+    223 ?        00:00:00 systemd-udevd
+    234 ?        00:00:00 psimon
+    319 ?        00:00:00 jbd2/sda16-8
+    320 ?        00:00:00 kworker/R-ext4-rsv-conversion
+    321 ?        00:00:00 kworker/R-cryptd
+    336 ?        00:00:00 hv_kvp_daemon
+    505 ?        00:00:00 haveged
+    704 ?        00:00:00 networkd-dispat
+    708 ?        00:00:00 php-fpm8.3
     730 ?        00:00:00 systemd-logind
-    735 ?        00:00:00 udisksd
-    740 ?        00:00:00 python3
-    753 ?        00:00:00 cron
-    784 ?        00:00:00 containerd
-    799 ?        00:00:01 kworker/u8:7-flush-8:0
-    800 ?        00:00:00 kworker/u8:8-events_unbound
-    889 ?        00:00:00 ModemManager
-    943 ?        00:00:00 kworker/R-tls-strp
-    991 ?        00:00:01 python3
-   1043 ?        00:00:00 dockerd
-   1754 ?        00:00:00 psimon
-  13589 ?        00:00:00 sudo
-  13591 ?        00:00:00 sudo
-  13592 ?        00:00:00 sleep
-  13593 ?        00:00:00 ps
+    732 ?        00:00:00 udisksd
+    736 ?        00:00:00 python3
+    752 ?        00:00:00 cron
+    789 ?        00:00:00 containerd
+    900 ?        00:00:00 ModemManager
+    917 ?        00:00:00 kworker/R-tls-strp
+    973 ?        00:00:01 python3
+   1047 ?        00:00:00 dockerd
+   1741 ?        00:00:00 psimon
+  12862 ?        00:00:00 sudo
+  12864 ?        00:00:00 sudo
+  12865 ?        00:00:00 sleep
+  12866 ?        00:00:00 ps
 [WARN] Command failed: sudo kill -19 3857
 Executing test...
 [FAIL] treasure.txt owner is not 'hero' (found: runner)
