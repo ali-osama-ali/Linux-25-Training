@@ -4,8 +4,8 @@ sudo userdel -r intruder
 sudo groupadd warriors
 sudo groupadd healers
 sudo usermod -aG warriors hero
-sudo useradd -m saga
-sudo usermod -aG healers saga
+sudo useradd -m sage
+sudo usermod -aG healers sage
 touch treasure.txt
 echo "CyberWorld's Core" >> treasure.txt
 sudo chmod 000 treasure.txt
